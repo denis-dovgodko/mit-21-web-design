@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body id="body" style="background-color: rgba(252, 237, 156, 0.8);">
+        <h1>Please, declasify your super secret data</h1>
+        <button type="button" onclick="alert('have a fun!')">Let's go</button>
+        <form action="./__main__.py" target="_blank" method="post">
+            <fieldset>
+                <legend>Text fields</legend>
+                <label for="Name">Your name</label><br>
+                <input type="text" name="Name" id="fname" value="Denis"><br>
+                <label for="Surname">Your surname</label><br>
+                <input type="text" name="Surname" id="lname" value="Dovgodko"><br>
+            </fieldset>
+            <fieldset>
+            <legend>Marked fields</legend>
+                <label for="Subject">Current subject</label><br>
+                <input type="radio" name="Subject" id="cybersecurity" value="Cybersecurity essentials">
+                <label for="Subject">Cybersecurity essentials</label><br>
+                <input type="radio" name="Subject" id="web" value="Web design" checked>
+                <label for="Subject">Web design</label><br>
+                <label for="Tasks">Mark your technologies as learned</label><br>
+                <input type="checkbox" name="Tasks" id="html" value="HTML" checked>
+                <label for="Tasks">HTML</label><br>
+                <input type="checkbox" name="Tasks" id="css" value="CSS">
+                <label for="Tasks">CSS</label><br>
+                <input type="checkbox" name="Tasks" id="js" value="JavaScript">
+                <label for="Tasks">JS</label><br>
+            </fieldset>
+            <fieldset><legend>About OS</legend>
+                <label for="OS">Choose your current operation system core</label>
+                <select name="OS" id="core">
+                    <option value="Windows core" >Windows core</option>
+                    <option value="Linux core"selected>Linux core</option>
+                    <option value="Darwin core">Darwin(XNU) core(macOS/iOS)</option>
+                </select><br>
+                <label for="Distribution">Please, enter your OS distribution</label><br>
+                <textarea name="distribution" id="distr" cols="10" rows="1">Oracle</textarea><br>
+            </fieldset>
+            <label for="seasone">Choose current year seasone</label>
+            <input list="seasone">
+            <datalist id="seasone">
+                <option value="spring">
+                <option value="winter">
+                <option value="spring">
+                <option value="summer">
+            </datalist><br>
+            <input type="month" value="seasone"><input type="week" name="week" id="week"><br>
+            <input type="submit" name="form" value="Submit"><br>
+        </form>
+    </body>
+</html>
