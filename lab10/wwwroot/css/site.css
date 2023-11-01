@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+    background-color: #B0E0E6;
+}
+
+body pre {
+    color: darkblue;
+}
+
+body > pre {
+    color: blueviolet;
+}
+
+address.footer {
+    color: hsla(328, 66%, 48%, 0.9);
+}
+
+[type="submit"] {
+    background-color: cornflowerblue;
+}
+
+button[type="submit"] {
+    background-color: rebeccapurple;
+}
+pre, h3, .details, #inactive {
+    color: darkgreen;
+}
+
+form [type="submit"] {
+    color: white;
+}
+
+.education{
+    float: left;
+    width: 88%;
+}
+
+.logo {
+    float:right;
+    width: 12%;
+}
+
+.footer[b-el7tl2eke3] {
+    position: relative !important;
+}
+.details {
+    clear: both;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
