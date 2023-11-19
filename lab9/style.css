@@ -1,0 +1,75 @@
+pre, h3, .details, #inactive {
+    color: aqua !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+.col-1{
+    float: left;
+    width: 80%;
+}
+
+.col-2{
+    float: right;
+    width: 20%;
+    clear: both;
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    line-height: 10vh;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    display: inline-flex;
+    position: fixed;
+    background: #2D2D2D;
+    opacity: 0.9;
+}
+#tail{
+    border: 0;
+    width: max(1000px, 100%);
+    margin-top: min(0px,1vh);
+    margin-left: calc(100px - 99px);
+    margin-right: 0px;
+    background: rgba(252, 237, 156, 0.80);
+}
+.header{
+    padding-block-start: 10vh;
+}
+body{
+    background-color: aliceblue;
+}
+body.tail{
+    background-color: red;
+}
+body#tail{
+    background-color: hsla(328, 66%, 48%, 0.9);
+}
+.tail{
+    background: rebeccapurple;
+}
+[type="submit"]{
+    background-color: hsl(75, 64%, 40%);
+}
+button[type="submit"]{
+    background-color: rebeccapurple;
+}
+pre{
+    color: white;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
