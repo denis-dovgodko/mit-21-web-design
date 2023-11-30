@@ -1,0 +1,71 @@
+﻿@model lab15_17.Models.Session
+
+@{
+    ViewData["Title"] = "Session";
+}
+
+<h1>Session</h1>
+
+<h4>Session</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Session">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <label asp-for="Hour" class="control-label"></label>
+            <select asp-for="Id" class="form-control">
+                @{
+                    foreach (var b in ViewBag.Sessions)
+                    {
+                        <option value="@b.Id">@b.Hour:@b.Minute</option>
+                    }
+                }
+            </select>
+            <div class="form-group">
+                <label asp-for="Hour" class="control-label"></label>
+                <input asp-for="Hour" class="form-control" />
+                <span asp-validation-for="Hour" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Minute" class="control-label"></label>
+                <input asp-for="Minute" class="form-control" />
+                <span asp-validation-for="Minute" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hall" class="control-label"></label>
+                <select asp-for="HallId" class="form-control">
+                    @{
+                        foreach (var b in ViewBag.Halls)
+                        {
+                            <option value="@b.Id">@b.HallName</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="HallId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Film" class="control-label"></label>
+                <select asp-for="FilmId" class="form-control">
+                    @{
+                        foreach (var b in ViewBag.Films)
+                        {
+                            <option value="@b.Id">@b.Name</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="FilmId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

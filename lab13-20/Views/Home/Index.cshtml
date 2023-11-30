@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Квитки онлайн";
+}
+<div class="text-center">
+    <div>
+        <h3>Для обраного фільму: </h3>
+        <table>
+            <tr>
+                <td><p>Фільми в прокаті</p></td>
+            </tr>
+            @{
+                foreach (var b in ViewBag.Tickets)
+                {
+                    <tr>
+                        <td><p>@b.Name</p></td>
+                        <td><a href="/Home/Buy/@b.Id">Детальніше</a></td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</div>

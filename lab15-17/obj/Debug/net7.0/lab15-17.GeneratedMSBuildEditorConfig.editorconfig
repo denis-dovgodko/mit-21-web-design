@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = lab15_17
+build_property.RootNamespace = lab15_17
+build_property.ProjectDir = C:\Users\dendo\OneDrive\Рабочий стол\web\lab\lab15-17\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dendo\OneDrive\Рабочий стол\web\lab\lab15-17
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Create/Film.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlXEZpbG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Create/Hall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlXEhhbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Create/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Create/Session.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlXFNlc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Create/Ticket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlXFRpY2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Delete/Film.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlXEZpbG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Delete/Hall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlXEhhbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Delete/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Delete/Session.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlXFNlc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Delete/Ticket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlXFRpY2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Home/Buy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCdXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Read/Films.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZFxGaWxtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Read/Halls.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZFxIYWxscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Read/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Read/Sessions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZFxTZXNzaW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Read/Tickets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhZFxUaWNrZXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Shared/_ReadFilmsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWFkRmlsbXNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Shared/_ReadHallsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWFkSGFsbHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Update/Film.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXEZpbG0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Update/Hall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXEhhbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Update/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Update/Session.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXFNlc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Update/Ticket.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlXFRpY2tldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dendo/OneDrive/Рабочий стол/web/lab/lab15-17/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-46yqdnggu1

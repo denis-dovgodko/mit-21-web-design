@@ -1,0 +1,9 @@
+﻿@model List<Hall>
+@{
+    ViewData["Title"] = "Квитки онлайн";
+    List<Film> films = ViewBag.Films;
+}
+<div class="text-center">
+@Html.Partial("~/Views/Shared/_ReadFilmsPartial.cshtml", films)
+@Html.Partial("~/Views/Shared/_ReadHallsPartial.cshtml", Model)
+</div>

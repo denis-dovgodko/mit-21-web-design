@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #B0E0E6;
+}
+
+.footer[b-el7tl2eke3] {
+    position: relative !important;
+}
+
+table{
+    align-content: center;
+}

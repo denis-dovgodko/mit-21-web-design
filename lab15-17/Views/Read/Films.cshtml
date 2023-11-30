@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Film>
+@{
+    ViewData["Title"] = "Квитки онлайн";
+}
+<div class="text-center">
+    @Html.Partial("~/Views/Shared/_ReadFilmsPartial.cshtml", Model)
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>

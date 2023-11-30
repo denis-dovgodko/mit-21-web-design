@@ -22,31 +22,6 @@ namespace lab13.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("lab13.Models.Film", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("HallNum")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SessionId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Technology")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("SessionId");
-
-                    b.ToTable("Films");
-                });
-
             modelBuilder.Entity("lab13.Models.Purchase", b =>
                 {
                     b.Property<int>("PurchaseId")
@@ -74,55 +49,6 @@ namespace lab13.Data.Migrations
                     b.ToTable("Purchases");
                 });
 
-            modelBuilder.Entity("lab13.Models.Seat", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("Column")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Price")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Row")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("VIP")
-                        .HasColumnType("bit");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Seats");
-                });
-
-            modelBuilder.Entity("lab13.Models.Session", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int>("Hour")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Minute")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SeatId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("SeatId");
-
-                    b.ToTable("Sessions");
-                });
-
             modelBuilder.Entity("lab13.Models.Ticket", b =>
                 {
                     b.Property<int>("Id")
@@ -131,16 +57,18 @@ namespace lab13.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("FilmId")
-                        .HasColumnType("int");
+                    b.Property<string>("Hall")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
 
-                    b.HasIndex("FilmId");
+                    b.HasKey("Id");
 
                     b.ToTable("Tickets");
                 });
@@ -347,39 +275,6 @@ namespace lab13.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("lab13.Models.Film", b =>
-                {
-                    b.HasOne("lab13.Models.Session", "Session")
-                        .WithMany("Films")
-                        .HasForeignKey("SessionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Session");
-                });
-
-            modelBuilder.Entity("lab13.Models.Session", b =>
-                {
-                    b.HasOne("lab13.Models.Seat", "Seat")
-                        .WithMany("Sessions")
-                        .HasForeignKey("SeatId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Seat");
-                });
-
-            modelBuilder.Entity("lab13.Models.Ticket", b =>
-                {
-                    b.HasOne("lab13.Models.Film", "Film")
-                        .WithMany("Tickets")
-                        .HasForeignKey("FilmId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Film");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -429,21 +324,6 @@ namespace lab13.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("lab13.Models.Film", b =>
-                {
-                    b.Navigation("Tickets");
-                });
-
-            modelBuilder.Entity("lab13.Models.Seat", b =>
-                {
-                    b.Navigation("Sessions");
-                });
-
-            modelBuilder.Entity("lab13.Models.Session", b =>
-                {
-                    b.Navigation("Films");
                 });
 #pragma warning restore 612, 618
         }

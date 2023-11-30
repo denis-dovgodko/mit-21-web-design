@@ -1,0 +1,17 @@
+﻿@model List<Hall>
+@{
+    ViewData["Title"] = "Квитки онлайн";
+    List<Film> films = ViewBag.Films;
+}
+<div class="text-center">
+@Html.Partial("~/Views/Shared/_ReadFilmsPartial.cshtml", films)
+    <div>
+        <a asp-controller="Read" asp-action='Films'>Дивитись афішу..</a>
+        <br />
+    </div>
+@Html.Partial("~/Views/Shared/_ReadHallsPartial.cshtml", Model)
+    <div>
+           <a asp-controller="Read" asp-action='Halls'>Більше залів..</a>
+           <br />
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <title>Купівля</title>
+    </head>
+    <body>
+        <h1>Форма купівлі</h1>
+        <form method="post" action="">
+            <input type="hidden" value="@ViewBag.TicketId" name="TicketId"/>
+            <table>
+                <tr>
+                    <td><p>Введіть своє ім'я</p></td>
+                    <td><input type="text" name="Person" /></td>
+                </tr>
+                <tr>
+                    <td><p>Введіть свій номер телефону</p></td>
+                    <td><input type="text" name="Phone" /></td>
+                </tr>
+            <tr>
+                <td><input type="submit" value="Підтвердити" /></td>
+                <td></td>
+            </tr>
+            </table>
+        </form>
+    </body>
+</html>
